@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+#calculator{
+    font-family: arial, sans-serif;
+    background-color:hsl(0, 0%, 16%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 21%);
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button{
+    /* This makes the siz of the buttons even */
+    width: 100px;
+    height: 100px;
+    /* This makes buttons rounded*/
+    border-radius: 50px;
+    border: none;
+    /*colour*/
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor:pointer
+}
+/*This makes it change color when hovering*/
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}/*This makes it change color when you click on it insttead of just hovering*/
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+.opperator-btn{
+    background-color:  hsl(35, 100%, 55%);
+}
+.opperator-btn:hover{
+    background-color:  hsl(35, 100%, 65%);
+}
+.opperator-btn:active{
+    background-color:  hsl(35, 100%, 65%);
+}
