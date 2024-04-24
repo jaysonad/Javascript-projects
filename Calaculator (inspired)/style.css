@@ -58,3 +58,19 @@ button:active{
 .opperator-btn:active{
     background-color:  hsl(35, 100%, 65%);
 }
+
+/*size depending on the resolution/*
+
+/* Example of a media query */
+@media screen and (max-width: 768px) {
+    /* CSS rules for screens up to 768px width */
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* CSS rules for screens between 769px and 1024px width */
+  }
+  
+  @media screen and (min-width: 1025px) {
+    /* CSS rules for screens wider than 1025px */
+  }
+  
