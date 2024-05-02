@@ -20,4 +20,4 @@ document.querySelector("button").addEventListener("click", () =>{
     speech.text = document.querySelector("textarea").value;
     window.speechSynthesis.speak(speech);
 });
-/* video refrence https://www.youtube.com/watch?v=3oDNqHZ7UKY&t=192*/
+/* videosrefrence https://www.youtube.com/watch?v=3oDNqHZ7UKY&t=192*/
