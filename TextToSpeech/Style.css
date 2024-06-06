@@ -56,7 +56,7 @@ text::placeholder{
 .row{
     width: 65%;
     max-width: 600px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 20px;
 }
