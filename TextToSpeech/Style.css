@@ -52,7 +52,7 @@ text::placeholder{
     font-size:16px;
     color: #ddd;
 }
-
+/*this is whereu select names*/
 .row{
     width: 100%;
     max-width: 600px;
@@ -64,7 +64,7 @@ text::placeholder{
 /* Replace existing code */
 button{
     width: 100%;
-    max-width: 200px;
+    max-width: 100px;
     background:#F08000;
     color: #fff;
     font-size: 1rem; /* Assuming 16px is your base font size */
