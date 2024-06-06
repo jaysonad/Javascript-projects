@@ -15,34 +15,38 @@
     flex-direction: column;
 }
 .hero h1{
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 500;
-    margin-top: -50px;
-    margin-bottom: 50px;
+    margin-top: -3.125rem;
+    margin-bottom: 3.125rem;
     color: rgb(39, 134, 193);
     text-shadow: 
-        -1px -1px 0 white,  
-         1px -1px 0 white,
-        -1px  1px 0 white,
-         1px  1px 0 white;
+    -0.0625rem -0.0625rem 0 white,  
+    0.0625rem -0.0625rem 0 white,
+    -0.0625rem  0.0625rem 0 white,
+    0.0625rem  0.0625rem 0 white;
 }
 .hero h1 span{
     color:#F08000;
     /*color:rgb(30, 148, 58)*/
 }
 textarea{
-    width: 600px;
+    width: 90%;
+    max-width: 600px;
     height: 250px;
     background: #bee9ff;
     color: #748389;
-    font-size: 15px;
+    font-size: 1rem;
     border: 0;
     outline: 0;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
     resize: none;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
+
+
+
 
 text::placeholder{
     font-size:16px;
@@ -50,36 +54,41 @@ text::placeholder{
 }
 
 .row{
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
+/* Replace existing code */
 button{
+    width: 100%;
+    max-width: 200px;
     background:#F08000;
     color: #fff;
-    font-size: 16px;
-    padding: 10px 30px;
-    border-radius: 35px;
+    font-size: 1rem; /* Assuming 16px is your base font size */
+    padding: 0.625rem 1.875rem; /* Converted from 10px 30px */
+    border-radius: 2.1875rem; /* Converted from 35px */
     border: 0;
     outline: 0;
     cursor: pointer;
 }
-select{
+
+/* Replace existing code */
+select {
     flex: 1;
     color: #fff;
     background: #bee9ff;
-    height: 40px;
-    padding: 0 20px;
+    height: 2.5rem; /* Converted from 40px */
+    padding: 0 1.25rem; /* Converted from 0 20px */
     outline: 0;
     border: 0;
-    border-radius: 35px;
+    border-radius: 2.1875rem; /* Converted from 35px */
     appearance: none;
-    background-image: url();/*make sure to acc add in photos n shi*/
+    background-image: url(); /* Make sure to add appropriate URL */
     background-repeat: no-repeat;
-    background-size: 15px;
-    background-position-x: calc(100%- 20px);
-    background-position-y:  20px;
-
+    background-size: 0.9375rem; /* Converted from 15px */
+    background-position-x: calc(100% - 1.25rem); /* Converted from 20px */
+    background-position-y: 1.25rem; /* Converted from 20px */
 }
