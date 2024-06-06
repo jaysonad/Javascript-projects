@@ -54,7 +54,7 @@ text::placeholder{
 }
 /*this is whereu select names*/
 .row{
-    width: 10%;
+    width: 85%;
     max-width: 600px;
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@ text::placeholder{
 
 /* Replace existing code */
 button{
-    width: 10%;
+    width: 45%;
     max-width: 100px;
     background:#F08000;
     color: #fff;
