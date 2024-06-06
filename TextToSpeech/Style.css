@@ -54,7 +54,7 @@ text::placeholder{
 }
 /*this is whereu select names*/
 .row{
-    width: 85%;
+    width: 65%;
     max-width: 600px;
     display: flex;
     align-items: center;
